@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.major{
+    background: url(../assets/images/backphoto.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 7rem;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.aboutbtn{
+    padding-top: 2rem;
+}
+
+.aboutbtn button{
+    background: #2196f3;
+    padding: 1rem 3rem;
+    border: none;
+    letter-spacing: 0.2rem;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+@media (min-width:380px) and (max-width:992px){
+    h1{
+        font-size: 5rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    
+
+
+    button{
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15rem;
+        padding-left: 7rem;
+    
+    }
+}
+
+@media (min-width:320px) and (max-width:379px){
+    h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 15rem;
+        padding-left: 7rem;
+    
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+    h1{
+        font-size: 10rem;
+    }
+
+    h2{
+        font-size: 8rem;
+    }
+    h3{
+        font-size: 7rem;
+    }
+
+    button{
+        padding: 2rem 5rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20rem;
+        padding-left: 7rem;
+    }
+}
+
+@media (min-width:379px) and (max-width:992px){
+
+    h1{
+        font-size: 6rem;
+    }
+    h2{
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4rem;
+        padding-left: 7rem;
+    
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px){
+
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 6rem;
+    }
+    h3{
+        font-size: 5rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-left: 7rem;
+    
+    }
+}
+
+@media (min-width:1400px){
+    h1{
+        font-size: 12rem;
+    }
+    h2{
+        font-size: 10rem;
+    }
+    h3{
+        font-size: 9rem;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-left: 7rem;
+    
+    }
+}
