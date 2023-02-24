@@ -9,8 +9,8 @@ const Home = () => {
     <div className='major'>
       <div className="container">
       <h2>Hi,I'm</h2>
-      <h1>Mohammed Bulut.</h1>
-      <h3>Full StacK Developer</h3>
+      <h1>Mahammad Bulut.</h1>
+      <h3>Full-Stack Developer</h3>
       <div className="aboutbtn">
         <button>ABOUT</button>
       </div>

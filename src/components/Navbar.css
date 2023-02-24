@@ -2,6 +2,7 @@
 .navbar{
     padding: 2rem;
     background-color: aliceblue;
+    
  
 }
 .container-fluid{
@@ -12,6 +13,12 @@
     font-size: 3rem;
     font-family: 'Noto Sans', sans-serif;
 }
+
+.cross-icon{
+    cursor: pointer;
+}
+
+
 
 
 .menu-icon{
