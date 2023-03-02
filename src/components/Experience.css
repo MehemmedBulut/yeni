@@ -1,3 +1,11 @@
-.king{
-    display: flex;
+.baslik{
+    padding-top: 2rem;
+    background-color: black;
+}
+
+
+
+.mySwiper{
+    background-color: black;
+    margin-top: 4rem;
 }

@@ -1,3 +1,13 @@
 .prlanguage img{
-    width: 200px;
+    border-radius: 0.3rem;
+    width: 150px;
+}
+
+
+
+.prlanguage{
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
 }
